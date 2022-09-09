@@ -1,27 +1,22 @@
 import "./App.css";
 import { Link, Outlet } from "react-router-dom";
-import Homepage from "./Solid_Principles/Single_Responsiblity_Principle/Single_Responsiblity";
-import { items } from "./Solid_Principles/Interface_Segregation_Principle/items";
 
 function App() {
   return (
     <div className="App">
       <nav>
-        This is App
-        {/* <Link to="/invoices"> Invoices </Link> */}
+        SOLID PRINCIPLES IN REACT
         <br />
-        {/* <Link to="/expenses"> Expenses </Link> */}
         <br />
-        {/* <Link to="/favicon.ico" target="_blank" download>
-          {" "}
-          download icon
-        </Link> */}
         <Link to="/single_responsiblity"> Single Responsiblity Principle</Link>
+        <br />
+        <br />
         <Link to="/open_closed"> Open Closed Principle</Link>
-        <Link to="/interface_segregation">
-          {" "}
-          Interface Segregation Principle
-        </Link>
+        <br />
+        <br />
+        <Link to="/interface_segregation">Interface Segregation Principle</Link>
+        <br />
+        <br />
       </nav>
       <Outlet />
     </div>
