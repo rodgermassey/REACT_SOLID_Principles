@@ -15,3 +15,13 @@ export const VideoList = ({ items }) => {
     </ul>
   );
 };
+
+// {
+// if ("coverUrl" in item) {
+// it's a video
+// return <Thumbnail coverUrl={item.coverUrl} />;
+// } else {
+// it's a live stream
+// return <Thumbnail coverUrl={item.previewUrl} />;
+// }
+// }
